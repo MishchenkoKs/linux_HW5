@@ -1,0 +1,14 @@
+   0 vi
+   1 df -h | head -3 > /tmp/file.txt
+   2 cd /tmp
+   3 ls -l
+   4 g+w file.txt
+   5 ls -l
+   6  chmod g+w file.txt
+   7 ls -l
+   8 chmod u-r file.txt 
+   9 ls -l
+  10 chmod o+x file.txt 
+  11 ls -l
+  12 history
+  13 history > history.txt
